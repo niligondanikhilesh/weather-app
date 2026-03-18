@@ -12,7 +12,7 @@ API_KEY = os.environ.get("WEATHER_API_KEY")
 @app.route("/")
 def home():
     return """
-    <h1>🌤️ Weather Dashboard</h1>
+    <h1>🌤️ Weather Dashboard< V2 </h1>
     <form action="/weather" method="get">
         <input name="city" placeholder="Enter city name" style="font-size:20px">
         <button style="font-size:20px">Get Weather</button>
